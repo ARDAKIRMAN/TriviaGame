@@ -10,7 +10,6 @@ public class ConnectionManager : Singleton<ConnectionManager>
         if (Application.internetReachability != NetworkReachability.NotReachable)
         {
             onHasConnection.Invoke();
-            EventSystemManager.Instance.EnableInput();
             return true;
         }
         else
