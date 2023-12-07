@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7456306365543183481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1398333856648171637}
+  - component: {fileID: -6618786184705723028}
+  m_Layer: 0
+  m_Name: PersistentManagers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1398333856648171637
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7456306365543183481}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-6618786184705723028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7456306365543183481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23388c91768cc5146ba8c1f03d2f1ebd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPersistent: 1
+  settings: {fileID: 11400000, guid: 4d9538fd689053c468abadbd75ba7784, type: 2}
+  reader: {fileID: 564272902978056938, guid: 68f8fdc5eb431114b88660412cecc0a6, type: 3}
+  scene: {fileID: 101798268100643775, guid: f1a88f39e1971c544a481d7d41600c8f, type: 3}
+  question: {fileID: 3917095776629020319, guid: b5ccfb94ac406e64095081c8fadc8f0b, type: 3}
+  fader: {fileID: 6972683882245329046, guid: 1db6f98e39129dd429be8148a138d3d5, type: 3}
+  dialogue: {fileID: 4466160582842531857, guid: 8bc5a9aa3dbc88147a57213fd00b12eb, type: 3}
+  connection: {fileID: 5907595898974638533, guid: d9f20f54d96e11444b087a65195b3c14, type: 3}
+  eventSystem: {fileID: -3096220054274575494, guid: 35b7f1779bf2537489a3c5ce2e493d58, type: 3}
+  fx: {fileID: 4413085488675701302, guid: da260d1150760dd428f970db12336863, type: 3}
+  sound: {fileID: 1285344182889629586, guid: 45a5f9c30c69a8c4380f723fca583ecc, type: 3}

@@ -1,0 +1,1372 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &25109162
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4253360445971738354, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 519420031}
+    - target: {fileID: 4253360445971738355, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253360445971738355, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253360445971738355, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253360445971738355, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253360445971738355, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253360445971738355, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253360445971738355, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253360445971738355, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253360445971738355, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253360445971738355, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253360445971738355, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253360445971738355, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253360445971738355, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253360445971738355, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253360445971738355, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253360445971738355, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253360445971738355, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253360445971738355, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253360445971738355, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253360445971738355, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253360445971738355, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253360445971738359, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+      propertyPath: m_Name
+      value: Canvas_Post
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4de42946a6eb5714599aec04c64566b7, type: 3}
+--- !u!1 &172680964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 172680966}
+  - component: {fileID: 172680965}
+  m_Layer: 0
+  m_Name: LeaderboardManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &172680965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172680964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8567c8e7010da1340b81bff36e7380ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPersistent: 0
+  content: {fileID: 1937604829}
+  loadedPlayerData: []
+  loadedLeaderboardPages: []
+  scroll: {fileID: 949659961}
+--- !u!4 &172680966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172680964}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &519420028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 519420032}
+  - component: {fileID: 519420031}
+  - component: {fileID: 519420029}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &519420029
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+--- !u!20 &519420031
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &519420032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &572456956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 572456958}
+  - component: {fileID: 572456957}
+  m_Layer: 0
+  m_Name: QuestionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &572456957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572456956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 422ddee2900659742be151f3128edf6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPersistent: 0
+  questions:
+  - question:
+      category: art
+      question: Which painter created the 'Mona Lisa' painting?
+      options:
+      - a) Pablo Picasso
+      - b) Vincent van Gogh
+      - c) Leonardo da Vinci
+      - d) Claude Monet
+      answer: c) Leonardo da Vinci
+    shown: 0
+  - question:
+      category: science
+      question: Which is the largest planet in the Solar System?
+      options:
+      - a) Mars
+      - b) Jupiter
+      - c) Venus
+      - d) Uranus
+      answer: b) Jupiter
+    shown: 0
+  - question:
+      category: film
+      question: Which movie is not directed by the same director as 'Inception'?
+      options:
+      - a) Interstellar
+      - b) The Prestige
+      - c) Dunkirk
+      - d) Blade Runner 2049
+      answer: d) Blade Runner 2049
+    shown: 0
+  - question:
+      category: sport
+      question: In which sport is the term 'tee' used?
+      options:
+      - a) Golf
+      - b) Football
+      - c) Basketball
+      - d) Volleyball
+      answer: a) Golf
+    shown: 0
+  - question:
+      category: music
+      question: Which instrument belongs to the category of 'percussion instruments'?
+      options:
+      - a) Piano
+      - b) Violin
+      - c) Drums
+      - d) Flute
+      answer: c) Drums
+    shown: 0
+  - question:
+      category: literature
+      question: Which author wrote the book 'Alice's Adventures in Wonderland'?
+      options:
+      - a) Jane Austen
+      - b) Lewis Carroll
+      - c) Charles Dickens
+      - d) William Shakespeare
+      answer: b) Lewis Carroll
+    shown: 0
+  - question:
+      category: geography
+      question: What is the world's largest ocean?
+      options:
+      - a) Atlantic Ocean
+      - b) Indian Ocean
+      - c) Pacific Ocean
+      - d) Arctic Ocean
+      answer: c) Pacific Ocean
+    shown: 0
+  - question:
+      category: history
+      question: In which year was the Republic of Turkey officially established?
+      options:
+      - a) 1920
+      - b) 1922
+      - c) 1923
+      - d) 1925
+      answer: c) 1923
+    shown: 0
+  - question:
+      category: technology
+      question: Which company manufactures 'Tesla' electric vehicles?
+      options:
+      - a) Ford
+      - b) Toyota
+      - c) Tesla
+      - d) General Motors
+      answer: c) Tesla
+    shown: 0
+  - question:
+      category: cuisine
+      question: Which country's cuisine includes a dish called 'kimchi'?
+      options:
+      - a) Japan
+      - b) South Korea
+      - c) Thailand
+      - d) China
+      answer: b) South Korea
+    shown: 0
+  - question:
+      category: film
+      question: Which film is not part of 'The Lord of the Rings' trilogy?
+      options:
+      - a) The Fellowship of the Ring
+      - b) The Return of the King
+      - c) The Two Towers
+      - d) The Battle of the Five Armies
+      answer: d) The Battle of the Five Armies
+    shown: 0
+  - question:
+      category: sport
+      question: In which sport is 'free throw' a term commonly used?
+      options:
+      - a) Tennis
+      - b) Basketball
+      - c) Swimming
+      - d) Gymnastics
+      answer: b) Basketball
+    shown: 0
+  - question:
+      category: music
+      question: Which musical instrument is not part of the brass family?
+      options:
+      - a) Trombone
+      - b) Violin
+      - c) Trumpet
+      - d) French horn
+      answer: b) Violin
+    shown: 0
+  - question:
+      category: literature
+      question: Who wrote the novel 'To Kill a Mockingbird'?
+      options:
+      - a) F. Scott Fitzgerald
+      - b) Harper Lee
+      - c) Mark Twain
+      - d) Charles Dickens
+      answer: b) Harper Lee
+    shown: 0
+  - question:
+      category: geography
+      question: Which is the world's largest desert?
+      options:
+      - a) Sahara Desert
+      - b) Arabian Desert
+      - c) Gobi Desert
+      - d) Antarctic Desert
+      answer: a) Sahara Desert
+    shown: 0
+  - question:
+      category: history
+      question: In which year did the Berlin Wall fall?
+      options:
+      - a) 1985
+      - b) 1989
+      - c) 1991
+      - d) 1995
+      answer: b) 1989
+    shown: 0
+  - question:
+      category: technology
+      question: Which company developed the Windows operating system?
+      options:
+      - a) Apple
+      - b) Microsoft
+      - c) Google
+      - d) IBM
+      answer: b) Microsoft
+    shown: 0
+  - question:
+      category: cuisine
+      question: Which country's cuisine is famous for 'sushi'?
+      options:
+      - a) China
+      - b) Thailand
+      - c) Japan
+      - d) India
+      answer: c) Japan
+    shown: 0
+  - question:
+      category: science
+      question: What is the symbol for 'gold' on the periodic table?
+      options:
+      - a) Gd
+      - b) Au
+      - c) Go
+      - d) Gl
+      answer: b) Au
+    shown: 0
+  - question:
+      category: art
+      question: Who painted the 'Starry Night' masterpiece?
+      options:
+      - a) Pablo Picasso
+      - b) Vincent van Gogh
+      - c) Leonardo da Vinci
+      - d) Claude Monet
+      answer: b) Vincent van Gogh
+    shown: 0
+  - question:
+      category: science
+      question: What is the chemical symbol for the element 'mercury'?
+      options:
+      - a) Me
+      - b) Hg
+      - c) Hy
+      - d) Mr
+      answer: b) Hg
+    shown: 0
+  - question:
+      category: history
+      question: Who was the first female Prime Minister of the United Kingdom?
+      options:
+      - a) Margaret Thatcher
+      - b) Angela Merkel
+      - c) Indira Gandhi
+      - d) Theresa May
+      answer: a) Margaret Thatcher
+    shown: 0
+  - question:
+      category: literature
+      question: Which Shakespearean play features the characters of Rosencrantz and
+        Guildenstern?
+      options:
+      - a) Romeo and Juliet
+      - b) Macbeth
+      - c) Hamlet
+      - d) Othello
+      answer: c) Hamlet
+    shown: 0
+  - question:
+      category: geography
+      question: Which country is the world's largest producer of coffee?
+      options:
+      - a) Brazil
+      - b) Vietnam
+      - c) Colombia
+      - d) Ethiopia
+      answer: a) Brazil
+    shown: 0
+  - question:
+      category: art
+      question: Which artistic movement does 'The Persistence of Memory' painting
+        belong to?
+      options:
+      - a) Impressionism
+      - b) Surrealism
+      - c) Cubism
+      - d) Fauvism
+      answer: b) Surrealism
+    shown: 0
+  - question:
+      category: music
+      question: Which composer wrote 'The Four Seasons'?
+      options:
+      - a) Ludwig van Beethoven
+      - b) Wolfgang Amadeus Mozart
+      - c) Antonio Vivaldi
+      - d) Johann Sebastian Bach
+      answer: c) Antonio Vivaldi
+    shown: 0
+  - question:
+      category: technology
+      question: Which company developed the programming language 'Python'?
+      options:
+      - a) Microsoft
+      - b) Apple
+      - c) Google
+      - d) Dropbox
+      answer: c) Google
+    shown: 0
+  - question:
+      category: film
+      question: Which movie won the Academy Award for Best Picture in 2010?
+      options:
+      - a) The Hurt Locker
+      - b) Inception
+      - c) Avatar
+      - d) The King's Speech
+      answer: d) The King's Speech
+    shown: 0
+  - question:
+      category: science
+      question: Which scientist formulated the laws of motion and universal gravitation?
+      options:
+      - a) Albert Einstein
+      - b) Isaac Newton
+      - c) Galileo Galilei
+      - d) Nikola Tesla
+      answer: b) Isaac Newton
+    shown: 0
+  - question:
+      category: sport
+      question: In which year did the first modern Olympic Games take place?
+      options:
+      - a) 1886
+      - b) 1896
+      - c) 1906
+      - d) 1916
+      answer: b) 1896
+    shown: 0
+  - question:
+      category: science
+      question: What is the smallest bone in the human body?
+      options:
+      - a) Stapes
+      - b) Incus
+      - c) Malleus
+      - d) Femur
+      answer: a) Stapes
+    shown: 0
+  - question:
+      category: history
+      question: Who was the first person to orbit the Earth?
+      options:
+      - a) Yuri Gagarin
+      - b) Neil Armstrong
+      - c) Buzz Aldrin
+      - d) John Glenn
+      answer: a) Yuri Gagarin
+    shown: 0
+  - question:
+      category: literature
+      question: Which novel begins with the line 'It was a bright cold day in April,
+        and the clocks were striking thirteen'?
+      options:
+      - a) 1984 by George Orwell
+      - b) Brave New World by Aldous Huxley
+      - c) Fahrenheit 451 by Ray Bradbury
+      - d) Animal Farm by George Orwell
+      answer: a) 1984 by George Orwell
+    shown: 0
+  - question:
+      category: geography
+      question: Which country is completely landlocked by South Africa?
+      options:
+      - a) Lesotho
+      - b) Eswatini
+      - c) Namibia
+      - d) Botswana
+      answer: a) Lesotho
+    shown: 0
+  - question:
+      category: art
+      question: Which artist is known for the painting 'The Scream'?
+      options:
+      - a) Vincent van Gogh
+      - b) Edvard Munch
+      - c) Pablo Picasso
+      - "d) Salvador Dal\xED"
+      answer: b) Edvard Munch
+    shown: 0
+  - question:
+      category: music
+      question: Which composer wrote the 'Moonlight Sonata'?
+      options:
+      - a) Franz Schubert
+      - b) Ludwig van Beethoven
+      - c) Wolfgang Amadeus Mozart
+      - d) Johann Sebastian Bach
+      answer: b) Ludwig van Beethoven
+    shown: 0
+  - question:
+      category: technology
+      question: Who co-founded the company 'Apple Inc.' along with Steve Jobs?
+      options:
+      - a) Bill Gates
+      - b) Tim Cook
+      - c) Steve Wozniak
+      - d) Larry Page
+      answer: c) Steve Wozniak
+    shown: 0
+  - question:
+      category: film
+      question: Which movie won the Academy Award for Best Picture in 1994?
+      options:
+      - a) Schindler's List
+      - b) Forrest Gump
+      - c) The Shawshank Redemption
+      - d) Pulp Fiction
+      answer: b) Forrest Gump
+    shown: 0
+  - question:
+      category: science
+      question: What is the speed of light in a vacuum?
+      options:
+      - a) 299,792 kilometers per second
+      - b) 300,000 kilometers per second
+      - c) 288,654 kilometers per second
+      - d) 310,101 kilometers per second
+      answer: a) 299,792 kilometers per second
+    shown: 0
+  - question:
+      category: sport
+      question: Who won the FIFA World Cup in 2014?
+      options:
+      - a) France
+      - b) Brazil
+      - c) Argentina
+      - d) Germany
+      answer: d) Germany
+    shown: 0
+  - question:
+      category: science
+      question: What is the chemical formula for ozone?
+      options:
+      - a) O2
+      - b) H2O
+      - c) O3
+      - d) CO2
+      answer: c) O3
+    shown: 0
+  - question:
+      category: history
+      question: Who was the founder of the Mongol Empire?
+      options:
+      - a) Genghis Khan
+      - b) Kublai Khan
+      - c) Attila the Hun
+      - d) Tamerlane
+      answer: a) Genghis Khan
+    shown: 0
+  - question:
+      category: literature
+      question: Who wrote the novel 'One Hundred Years of Solitude'?
+      options:
+      - "a) Gabriel Garc\xEDa M\xE1rquez"
+      - b) Jorge Luis Borges
+      - c) Pablo Neruda
+      - d) Isabel Allende
+      answer: "a) Gabriel Garc\xEDa M\xE1rquez"
+    shown: 0
+  - question:
+      category: geography
+      question: Which African country is known as the 'Pearl of Africa'?
+      options:
+      - a) Kenya
+      - b) Uganda
+      - c) Tanzania
+      - d) Rwanda
+      answer: b) Uganda
+    shown: 0
+  - question:
+      category: art
+      question: Who painted the 'Guernica'?
+      options:
+      - "a) Salvador Dal\xED"
+      - b) Pablo Picasso
+      - c) Vincent van Gogh
+      - d) Leonardo da Vinci
+      answer: b) Pablo Picasso
+    shown: 0
+  - question:
+      category: music
+      question: Which composer wrote 'The Marriage of Figaro'?
+      options:
+      - a) Franz Schubert
+      - b) Richard Wagner
+      - c) Wolfgang Amadeus Mozart
+      - d) Ludwig van Beethoven
+      answer: c) Wolfgang Amadeus Mozart
+    shown: 0
+  - question:
+      category: technology
+      question: What year was the first iPhone released?
+      options:
+      - a) 2005
+      - b) 2007
+      - c) 2009
+      - d) 2010
+      answer: b) 2007
+    shown: 0
+  - question:
+      category: film
+      question: Which movie won the first Academy Award for Best Picture?
+      options:
+      - a) All Quiet on the Western Front
+      - b) Wings
+      - c) Sunrise
+      - d) The Broadway Melody
+      answer: b) Wings
+    shown: 0
+  - question:
+      category: science
+      question: What is the process by which plants make their food called?
+      options:
+      - a) Photosynthesis
+      - b) Respiration
+      - c) Transpiration
+      - d) Oxidation
+      answer: a) Photosynthesis
+    shown: 0
+  - question:
+      category: sport
+      question: Who is the only boxer to finish his career undefeated in 50 professional
+        fights?
+      options:
+      - a) Muhammad Ali
+      - b) Floyd Mayweather Jr.
+      - c) Sugar Ray Robinson
+      - d) Rocky Marciano
+      answer: d) Rocky Marciano
+    shown: 0
+  gettinQuestions: 0
+--- !u!4 &572456958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572456956}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &592353240
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1398333856648171637, guid: e35b723ad546cd44790d32ea3db3e1dc, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398333856648171637, guid: e35b723ad546cd44790d32ea3db3e1dc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398333856648171637, guid: e35b723ad546cd44790d32ea3db3e1dc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398333856648171637, guid: e35b723ad546cd44790d32ea3db3e1dc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398333856648171637, guid: e35b723ad546cd44790d32ea3db3e1dc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398333856648171637, guid: e35b723ad546cd44790d32ea3db3e1dc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398333856648171637, guid: e35b723ad546cd44790d32ea3db3e1dc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398333856648171637, guid: e35b723ad546cd44790d32ea3db3e1dc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398333856648171637, guid: e35b723ad546cd44790d32ea3db3e1dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398333856648171637, guid: e35b723ad546cd44790d32ea3db3e1dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398333856648171637, guid: e35b723ad546cd44790d32ea3db3e1dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7456306365543183481, guid: e35b723ad546cd44790d32ea3db3e1dc, type: 3}
+      propertyPath: m_Name
+      value: PersistentManagers
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e35b723ad546cd44790d32ea3db3e1dc, type: 3}
+--- !u!1 &784050742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 784050744}
+  - component: {fileID: 784050743}
+  m_Layer: 0
+  m_Name: MenuManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &784050743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784050742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6b25a30f4591b4f81ec7ac4bc1689c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasMainMenu: {fileID: 1023818301}
+  rocket: {fileID: 891425470}
+  txtScore: {fileID: 1314040681641883057}
+--- !u!4 &784050744
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784050742}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &891425470 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1314040681825866464, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+  m_PrefabInstance: {fileID: 1314040681641883056}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79b55207f55298e47b901af72a913679, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &949659961 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5935136447584880837, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+  m_PrefabInstance: {fileID: 5935136448285482336}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d08d387fc3a54cd40b635393b93eed8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1023818301 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1314040680881514201, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+  m_PrefabInstance: {fileID: 1314040681641883056}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1937604829 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5935136447200713796, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+  m_PrefabInstance: {fileID: 5935136448285482336}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1314040681641883056
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1314040680881514201, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_Name
+      value: Canvas_MainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314040680881514204, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 519420031}
+    - target: {fileID: 1314040680881514205, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314040680881514205, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314040680881514205, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314040680881514205, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314040680881514205, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314040680881514205, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314040680881514205, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314040680881514205, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314040680881514205, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314040680881514205, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314040680881514205, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314040680881514205, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314040680881514205, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314040680881514205, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314040680881514205, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314040680881514205, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314040680881514205, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314040680881514205, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314040680881514205, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314040680881514205, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314040680881514205, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603250432869106384, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 784050743}
+    - target: {fileID: 4603250433365166206, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 784050743}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+--- !u!114 &1314040681641883057 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5203456574140441391, guid: c3bb7b66016108246ae35857b6976774, type: 3}
+  m_PrefabInstance: {fileID: 1314040681641883056}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &5935136448285482336
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5662246853124049840, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 784050743}
+    - target: {fileID: 5935136447200713796, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_Name
+      value: Canvas_Leaderboards
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935136447200713800, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 519420031}
+    - target: {fileID: 5935136447200713801, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935136447200713801, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935136447200713801, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935136447200713801, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935136447200713801, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935136447200713801, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935136447200713801, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935136447200713801, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935136447200713801, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935136447200713801, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935136447200713801, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935136447200713801, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935136447200713801, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935136447200713801, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935136447200713801, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935136447200713801, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935136447200713801, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935136447200713801, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935136447200713801, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935136447200713801, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935136447200713801, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eae8238d898be594ca407f19e7db7155, type: 3}
+--- !u!1001 &6417540672594576491
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6417540670921760425, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
+      propertyPath: m_Name
+      value: Canvas_Background
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417540670921760428, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417540670921760428, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417540670921760428, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417540670921760428, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417540670921760428, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417540670921760428, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417540670921760428, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417540670921760428, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417540670921760428, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417540670921760428, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417540670921760428, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417540670921760428, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417540670921760428, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417540670921760428, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417540670921760428, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417540670921760428, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417540670921760428, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417540670921760428, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417540670921760428, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417540670921760428, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417540670921760428, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417540670921760429, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 519420031}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1c6aca48e989053439557992a5f2556b, type: 3}
